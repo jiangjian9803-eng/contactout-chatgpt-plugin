@@ -1,0 +1,40 @@
+{
+  "name": "contactout-chatgpt",
+  "version": "1.0.0",
+  "description": "Search and enrich recruiting candidates through ContactOut's official MCP server.",
+  "author": {
+    "name": "Jian Jiang",
+    "email": "jiangjian9803-eng@users.noreply.github.com",
+    "url": "https://github.com/jiangjian9803-eng"
+  },
+  "homepage": "https://jiangjian9803-eng.github.io/master-linked/",
+  "repository": "https://github.com/jiangjian9803-eng/contactout-chatgpt-plugin",
+  "license": "MIT",
+  "keywords": [
+    "contactout",
+    "recruiting",
+    "candidate-search",
+    "mcp"
+  ],
+  "interface": {
+    "displayName": "ContactOut with ChatGPT",
+    "shortDescription": "Search, enrich, and export recruiting candidates.",
+    "longDescription": "Connect ChatGPT and Codex to ContactOut's official MCP server for candidate search, profile enrichment, contact lookup, company research, email verification, and API usage checks.",
+    "developerName": "Jian Jiang",
+    "category": "Productivity",
+    "capabilities": [
+      "Candidate search",
+      "Contact enrichment",
+      "Company search",
+      "Email verification"
+    ],
+    "websiteURL": "https://jiangjian9803-eng.github.io/master-linked/",
+    "defaultPrompt": [
+      "Find senior machine learning engineers in Toronto using ContactOut.",
+      "Enrich these LinkedIn profiles with available work emails.",
+      "Check my ContactOut API usage and remaining credits."
+    ],
+    "brandColor": "#3826B3"
+  },
+  "mcpServers": "./.mcp.json"
+}
